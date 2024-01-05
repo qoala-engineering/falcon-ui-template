@@ -8,10 +8,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "analyze": "ANALYZE=true yarn build",
     "husky:install": "husky install",
     "postinstall": "husky install"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^14.0.4",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
