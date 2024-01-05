@@ -14,7 +14,9 @@
     "husky:install": "husky install",
     "postinstall": "husky install",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "e2e:headless": "playwright test",
+    "e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^14.0.4",
@@ -31,6 +33,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
     "@jest/globals": "^29.7.0",
+    "@playwright/test": "^1.40.1",
     "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.6.7",
     "@storybook/addon-links": "^7.6.7",
