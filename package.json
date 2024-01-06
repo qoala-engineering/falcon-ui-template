@@ -16,7 +16,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "e2e:headless": "playwright test",
-    "e2e:ui": "playwright test --ui"
+    "e2e:ui": "playwright test --ui",
+    "release": "standard-version"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^14.0.4",
@@ -70,6 +71,7 @@
     "postcss": "^8.4.33",
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.11",
+    "standard-version": "^9.5.0",
     "storybook": "^7.6.7",
     "tailwindcss": "^3.4.1"
   },
