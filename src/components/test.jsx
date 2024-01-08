@@ -6,7 +6,7 @@ const Test = () => {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <h1>Test: {count}</h1>
+      <h1>Test: Hello {count}</h1>
       <Button onClick={() => setCount(count + 1)}>Increment</Button>
     </div>
   );
